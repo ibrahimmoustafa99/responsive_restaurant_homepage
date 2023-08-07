@@ -1,0 +1,65 @@
+header{
+    background: url(../../assest/header-bg.jpg) center no-repeat;
+    width: 100%;
+    background-size: cover;
+    text-align: left;
+    height: 500px;
+}
+
+header h2{
+    color: #7c0f28;
+    
+    font-weight: 700;
+    font-size: 40x;
+}
+header p{
+    color: #555555;
+}
+header button{
+    background-color: #7c0f28 ;
+    color: #fff;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 8px solid;
+    border-image: repeating-linear-gradient(135deg,#F8CA00 0 10px,#E97F02 0 20px,#BD1550 0 30px) 8;
+    -webkit-mask: 
+        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+        var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+        conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+        0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+        linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+    
+}
+header button:last-of-type{
+    background-color: #fff;
+    color: #7c0f28;
+    font-weight: bold;
+    border: 8px solid;
+    border-image: repeating-linear-gradient(135deg,#F8CA00 0 10px,#E97F02 0 20px,#BD1550 0 30px) 8;
+    -webkit-mask: 
+        conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+        var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+        conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+        0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+        linear-gradient(#000 0 0) padding-box no-repeat;
+    transition: .3s, -webkit-mask-position .3s .3s;
+}
+header button:hover{
+    background-color: #fff;
+    --_i: 100%;
+    color: #CC333F;
+    transition: .3s, -webkit-mask-size .3s .3s;
+    
+}
+header button:last-of-type:hover{
+    background-color: transparent;
+
+    --_i: 100%;
+  color: #CC333F;
+  transition: .3s, -webkit-mask-size .3s .3s;
+    
+    
+}

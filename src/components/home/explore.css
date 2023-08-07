@@ -1,0 +1,30 @@
+.explore{
+    padding: 20px 0;
+}
+.explore h2{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+    font-weight: bold;
+}
+.explore p{
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+.explore .row .cardtext{
+    color:#7c0f28 ;
+}
+.explore .row button{
+    background-color: #7c0f28;
+    border: 2px solid #7c0f28;
+}
+.explore .row button:hover{
+    background-color: transparent;
+    color: #7c0f28;
+    transform: .4s;
+}

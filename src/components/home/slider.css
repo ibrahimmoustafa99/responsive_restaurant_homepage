@@ -1,0 +1,33 @@
+.slider .slider-div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto 125px auto;
+    color: #777;
+    height:max-content;
+    width:75%;
+    padding-bottom: 190px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+.slider{
+    background-color: #7c0f28;
+}
+.slider h3{
+    padding-top: 30px;
+    color: white;
+    font-weight: bold;
+}
+.slider-contant{
+    position: absolute;
+    margin-top: 190px;
+    max-width: 100%;
+    width: 100%;
+}
+.slider-contant h2{
+    color: #7c0f28;
+    padding-bottom: 5px;
+    font-weight: bold;
+}

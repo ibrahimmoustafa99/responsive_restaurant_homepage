@@ -1,0 +1,35 @@
+.about{
+    padding: 35px 0;
+}
+.about img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.about h3{
+    text-align: left;
+    font-size: 32px;
+    line-height: 45px;
+    color: #43121d;
+    font-weight: 700;
+}
+.about p{
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+.about button{
+    display: block;
+    background: #a82d49;
+    border: 3px solid #a82d49;
+    color: #fff;
+    line-height: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 11px 28px;
+}

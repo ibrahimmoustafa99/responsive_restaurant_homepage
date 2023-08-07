@@ -1,0 +1,28 @@
+.about2{
+    padding: 35px 0;
+}
+.about2 img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.about2 h3{
+    text-align: left;
+    font-size: 32px;
+    line-height: 45px;
+    color: #43121d;
+    font-weight: 700;
+    padding: 20px 0; 
+}
+
+.about2 p{
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+

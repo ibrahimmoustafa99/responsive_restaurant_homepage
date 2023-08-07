@@ -1,0 +1,18 @@
+.states-info{
+    background-color: #7c0f28;
+    padding: 40px 0;
+}
+.states-info p{
+    color: #fff;
+    font-size: 35px;
+    margin: 0 0 20px;
+    font-weight: 700;
+    
+}
+.states-info h2{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
